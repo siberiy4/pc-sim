@@ -2,28 +2,27 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Item {
+  position: relative;
+  display: block;
+  clear: both;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Item-Names {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 15px;
 }
 
 
-
-.App-link {
-  color: #61dafb;
+.Item-Maker {
+  margin: 0 0 5px 0;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Item-Elem {
+  top: 50%;
+  display: table-cell;
+  vertical-align: middle;
 }
